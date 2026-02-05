@@ -7,7 +7,7 @@ class Camera:
 
 
 class MusicPlayer:
-    def __init__(self, sound_quality):
+    def __init__(self, sound_quality): 
         self.sound_quality = sound_quality
 
     def display_music_details(self):
@@ -31,3 +31,4 @@ phone = SmartPhone("Samsung", "100 MP", "Dolby Atmos")
 
 
 phone.display_smartphone_details()
+
