@@ -1,7 +1,7 @@
 
 class Product:
     def __init__(self, product_name, price):
-        self.product_name = product_name
+        self.product_name = product_name 
         self.price = price
 
     def display_product(self):
@@ -47,3 +47,4 @@ mobile = MobilePhone(
 
 
 mobile.display_mobile_details()
+
