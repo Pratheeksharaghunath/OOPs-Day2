@@ -11,7 +11,7 @@ class parent_class:
 class child_class(parent_class): 
     def __init__(self, p1, p2, p3, p4):
         super().__init__(p1, p2)
-        self.p3 = p3
+        self.p3 = p3 
         self.p4 = p4
 
     def method_name(self):
